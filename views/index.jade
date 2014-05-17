@@ -1,5 +1,16 @@
-extends layout
-
-block content
-  h1= title
-  p Welcome to #{title}
+doctype html
+html(lang = 'en')
+	head
+		title Operation Event
+		link(rel='stylesheet', href='bootstrap/css/bootstrap.min.css')
+		link(rel='stylesheet', href='bootstrap/css/style.css')
+		script(src="javascripts/jquery.js")
+		script(src="bootstrap/js/bootstrap.min.js")
+	body
+		div#login
+			div.btn-group
+				a#fbButton(href="#" role="button" class="btn btn-primary btn-lg") Sign in with Facebook
+			
+			
+		script(src="javascripts/facebook.js")
+		
