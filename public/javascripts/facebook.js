@@ -1,4 +1,7 @@
-FB.login(function(response){
-  
- 
+
+$("#fbButton").click(function(){
+    alert("click");
+    FB.login(function(response){
+     
+    });    
 });
